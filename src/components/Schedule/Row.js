@@ -271,7 +271,9 @@ export default class Row extends Component {
         : {};
     if (firstPoint) {
       return (
-        <div ref={this.layer} style={style} className="schedule-panel"></div>
+        <div ref={this.layer} style={style} className="schedule-panel">
+          <div className="panel-content"></div>
+        </div>
       );
     }
   };
@@ -346,7 +348,6 @@ export default class Row extends Component {
                     <div
                       key={`blocked-panel-${key}`}
                       style={{
-                        backgroundColor: "red",
                         height: 48,
                         position: "absolute",
                         left: firstPoint.position.x + CELL_PADDING_LEFT,

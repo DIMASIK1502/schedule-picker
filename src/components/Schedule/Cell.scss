@@ -3,18 +3,21 @@
     pointer-events: none;
   }
   &:not(:first-of-type) {
-    border-left: 1px dashed black;
+    border-left: 1px solid #f5f7fa;
   }
   &:first-of-type {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
   &:last-of-type {
-    border-right: 1px dashed black;
+    border-right: 1px solid #f5f7fa;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
   width: 25px;
   height: 48px;
   transition: 0.2s;
+  &:nth-child(even) {
+    border-left: 1px solid #dfe5ed;
+  }
 }

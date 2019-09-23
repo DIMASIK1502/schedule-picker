@@ -4,13 +4,18 @@
       .header-timeline {
         margin-left: 100px;
         display: flex;
+        margin-bottom: 8px;
+        border: 1px solid #dfe5ed;
+        border-right: 0;
         .timeline-cell {
           min-width: 50px;
-          border-left: 1px dashed black;
-          text-align: center;
-          &:last-child {
-            border-right: 1px dashed black;
-          }
+          font-size: 12px;
+          color: #7b8fa5;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-right: 1px solid #dfe5ed;
         }
       }
     }

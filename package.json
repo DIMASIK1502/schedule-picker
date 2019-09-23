@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animejs": "^3.1.0",
+    "bootstrap": "^4.3.1",
+    "framer-motion": "^1.6.3",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
     "react": "^16.9.0",
+    "react-big-scheduler": "^0.2.7",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "stylefire": "^6.0.10"
   },
   "scripts": {
     "start": "react-scripts start",

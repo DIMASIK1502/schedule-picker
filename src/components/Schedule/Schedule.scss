@@ -1,0 +1,18 @@
+.schedule-wrapper {
+  .schedule-workspace {
+    .workspace-header {
+      .header-timeline {
+        margin-left: 100px;
+        display: flex;
+        .timeline-cell {
+          min-width: 50px;
+          border-left: 1px dashed black;
+          text-align: center;
+          &:last-child {
+            border-right: 1px dashed black;
+          }
+        }
+      }
+    }
+  }
+}

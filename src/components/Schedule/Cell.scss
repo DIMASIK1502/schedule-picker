@@ -1,0 +1,20 @@
+.row-cell {
+  &.blocked {
+    pointer-events: none;
+  }
+  &:not(:first-of-type) {
+    border-left: 1px dashed black;
+  }
+  &:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  &:last-of-type {
+    border-right: 1px dashed black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  width: 25px;
+  height: 48px;
+  transition: 0.2s;
+}
